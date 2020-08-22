@@ -131,7 +131,8 @@ const setProgressBar = (event) => {
   const width = event.srcElement.clientWidth;
   const clickX = event.offsetX;
   const { duration } = music;
-  music.currentTime = (clickX / width) * duration;
+
+  music.currentTime = Math.floor((clickX / width) * duration);
 };
 
 // Event Listeners
