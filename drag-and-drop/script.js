@@ -163,23 +163,15 @@ const hideInputBox = (column) => {
 // Upodate arrays
 
 const rebuildArrays = () => {
-  backlogListArray = [];
-  for (let index = 0; index < backlogList.children.length; index++) {
-    backlogListArray.push(backlogList.children[index].textContent);
-  }
-  progressListArray = [];
-  for (let index = 0; index < progressList.children.length; index++) {
-    progressListArray.push(progressList.children[index].textContent);
-  }
-  completeListArray = [];
-  for (let index = 0; index < completeList.children.length; index++) {
-    completeListArray.push(completeList.children[index].textContent);
-  }
+  backlogListArray = Array.from(backlogList.children).map((i) => i.textContent);
+  progressListArray = Array.from(progressList.children).map(
+    (i) => i.textContent
+  );
+  completeListArray = Array.from(completeList.children).map(
+    (i) => i.textContent
+  );
+  onHoldListArray = Array.from(onHoldList.children).map((i) => i.textContent);
 
-  onHoldListArray = [];
-  for (let index = 0; index < onHoldList.children.length; index++) {
-    onHoldListArray.push(onHoldList.children[index].textContent);
-  }
   updateDOM();
 };
 
