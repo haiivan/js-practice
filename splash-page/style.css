@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f3f8f7 49.91%,
+    #fff9f5 94.19%
+  );
+  font-family: Lato, sans-serif;
+  color: #54575a;
+}
+
+.wrapper {
+  position: relative;
+  width: 1440px;
+  height: 1379px;
+  margin: auto;
+}
+
+.brand-img {
+  position: absolute;
+  width: 193px;
+  height: 47.64px;
+  left: 221px;
+  top: 50.25px;
+}
+
+.title {
+  position: absolute;
+  width: 458px;
+  height: 135px;
+  left: 221px;
+  top: 236px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 67px;
+}
+
+.text {
+  position: absolute;
+  width: 394px;
+  height: 96px;
+  left: 221px;
+  top: 403px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.app-store-btn {
+  position: absolute;
+  width: 138.44px;
+  height: 46.28px;
+  left: 221px;
+  top: 561px;
+}
+
+.app-store-btn img {
+  width: 138.44px;
+  height: 46.28px;
+}
+
+.google-play-btn {
+  position: absolute;
+  width: 156.19px;
+  height: 46.28px;
+  left: 381.81px;
+  top: 561px;
+}
+
+.google-play-btn img {
+  width: 156.19px;
+  height: 46.28px;
+}
+
+.main-image-container {
+  position: absolute;
+  width: 535.72px;
+  height: 309.27px;
+  left: 683.28px;
+  top: 229.73px;
+}
+
+.main-image-container img {
+  height: 411.15px;
+}
+
+.profile-img {
+  position: absolute;
+  height: 444px;
+  left: 737px;
+  right: 479px;
+  top: 686px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.product-img {
+  position: absolute;
+  height: 222px;
+  left: 737px;
+  right: 479px;
+  top: 1157px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.orders-img {
+  position: absolute;
+  height: 470px;
+  left: 479px;
+  right: 737px;
+  top: 913px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.cart-img {
+  position: absolute;
+  height: 222px;
+  left: 221px;
+  right: 995px;
+  top: 1157px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.home-img {
+  position: absolute;
+  height: 470px;
+  left: 995px;
+  right: 221px;
+  top: 908px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.background-toggles {
+  position: absolute;
+  right: 150px;
+  top: 70px;
+  display: flex;
+}
+
+.background-toggles > div {
+  height: 25px;
+  width: 25px;
+  border-radius: 3px;
+  margin-right: 10px;
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.background-1 {
+  background-color: #e7e7e7;
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23727272' fill-opacity='0.22'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.background-2 {
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236734b8' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.background-3 {
+  background-color: #c5b6b6;
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23f3f3f4' fill-opacity='0.33' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
